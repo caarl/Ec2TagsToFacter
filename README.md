@@ -15,7 +15,7 @@ Ensure your EC2 instance has a IAM role enabling access to describe EC2 instance
 
 # Usage
 
-Once the script is in place and your instance has an appropriate IAM role instance tags will be available as Puppet facts prefixed with ec2tag_.
+Once the script is in place and your instance has an appropriate IAM role, instance tags will be available as Puppet facts prefixed with 'ec2tag_'.
 
 e.g. Tag name 'Role', tag value 'WebServer' will be show up as ec2tag_role => WebServer when running facter
 
